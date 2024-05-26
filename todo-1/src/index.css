@@ -1,0 +1,82 @@
+.main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+body {
+    background-color: grey;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+button {
+    font-weight: 1.7rem;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5 ease;
+}
+
+.button-1 {
+    background-color: green;
+    font-size: 1.3rem;
+    margin-left: 5px;
+}
+
+.button-1:hover {
+    background-color: yellow;
+}
+
+.delete-1 {
+    background-color: red;
+}
+
+.delete-1:hover {
+    background-color: red(45, 65, 25);
+}
+
+.move-1 {
+    background-color: skyblue;
+}
+
+.move-2 {
+    background-color: skyblue;
+}
+
+input[type=text] {
+    font-size: 1.7rem;
+    padding: 2px;
+    border: solid 2px;
+}
+
+ol {
+    padding: 0;
+}
+
+li {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.text {
+    flex: 1;
+}
+
+.delete-1,
+.move-1,
+.move-2 {
+    padding: 10px 20px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
